@@ -1,0 +1,11 @@
+{
+    "name": "temas765/password-hasher",
+    "description": "Hesher for hashing password",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Temas765\\PasswordHasher\\": "src/"
+        }
+    },
+    "require": {}
+}
