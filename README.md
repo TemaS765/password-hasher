@@ -17,7 +17,7 @@ composer require temas765/password-hasher
 ```php
 <?php
 
-$hasher = new Hasher();
-echo "Hash: {$hasher->hash('12345')}" //hash
+$passwordHasher = new PasswordHasher(new Md5Hasher());
+echo "Password hash: {$passwordHasher->hashPassword('secret')}" // Password hash: 5ebe2294ecd0e0f08eab7690d2a6ee69 
 ```
 

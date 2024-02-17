@@ -7,5 +7,10 @@
             "Temas765\\PasswordHasher\\": "src/"
         }
     },
-    "require": {}
+    "require": {},
+    "config": {
+        "platform": {
+            "php": "8.0"
+        }
+    }
 }
